@@ -62,5 +62,11 @@ class Calci{
         System.out.println("Result of Multiplication is: " + mul_result);
         float div_result = calc.division(operand_1, operand_2);
         System.out.println("Result of Division is: " + div_result);
+        ExtendedCalci calc1=new ExtendedCalci();
+        float squ_result = calc1.squ(operand_1);
+        System.out.println("Result of Square is: " + squ_result);
+        float cube_result = calc1.cube(operand_1);
+        System.out.println("Result of Cuberoot is: " + cube_result);
+
     }
 }
